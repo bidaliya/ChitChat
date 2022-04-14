@@ -1,6 +1,5 @@
 package com.example.baatuni
 
-import android.app.ProgressDialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -28,8 +27,13 @@ class Login : AppCompatActivity() {
         binding.LoginButton.setOnClickListener {
             val email = binding.LoginEmail.editableText.toString()
             val password = binding.LoginPassword.editableText.toString()
-            
-            login(email, password)
+            if(email.isBlank() || password.isBlank()){
+                Toast.makeText(this@Login, "Please enter credentials", Toast.LENGTH_SHORT).show()
+            }
+            else{
+                binding.LoginButton.isClickable = true
+                login(email, password)
+                }
         }
 
     }
