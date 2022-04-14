@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "993020074098",
+    "project_id": "baatuni-779a5",
+    "storage_bucket": "baatuni-779a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993020074098:android:d4c51f6db48dedf9bd8aeb",
+        "android_client_info": {
+          "package_name": "com.example.baatuni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993020074098-qivfl1rvomnqmbilr51f5vfvq6tcltt0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9Y3MqkTzGJyOgNBxBBQYsJgDORq8Wcgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993020074098-qivfl1rvomnqmbilr51f5vfvq6tcltt0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
